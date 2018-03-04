@@ -1,0 +1,34 @@
+src/*.exe
+src/pwscoin
+src/pwscoind
+src/test_pwscoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.pwscoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+pwscoin-qt
+PWSCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+pwscoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
